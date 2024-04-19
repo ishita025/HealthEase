@@ -1,0 +1,73 @@
+/* appointment.css */
+/* appointment.css */
+.container {
+    margin-top: 10rem;
+    position: relative; /* Ensure the container is positioned relative for absolute positioning of the video */
+    overflow: hidden; /* Hide overflowing parts of the video */
+    background: url('https://i.pinimg.com/originals/b8/23/e3/b823e38cc01fdb9278b6f7faa2feda6d.gif') center center/cover fixed;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3); /* Add a semi-transparent overlay to improve readability of form */
+}
+
+.container h2 {
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    z-index: 1; /* Ensure text is above the background */
+}
+
+#appointmentForm {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 1); /* Set a fully opaque background for the form */
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    z-index: 1; /* Ensure form is above the background */
+}
+
+#appointmentForm label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+#appointmentForm input[type="text"],
+#appointmentForm input[type="date"],
+#appointmentForm input[type="time"],
+#appointmentForm select,
+#appointmentForm input[type="number"] {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--blue);
+}
+
+#appointmentForm input[type="submit"] {
+    width: calc(100% - 2rem);
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#appointmentForm input[type="submit"]:hover {
+    background-color: var(--pink);
+}

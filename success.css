@@ -1,0 +1,130 @@
+/* success.css */
+
+/* Styling for the content between the header and the footer */
+
+.success-content {
+    background: url('https://i.pinimg.com/originals/b8/23/e3/b823e38cc01fdb9278b6f7faa2feda6d.gif') center center/cover fixed;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    padding: 2rem;
+    text-align: center;
+}
+
+.success-message {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.appointment-details {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+    padding: 2rem;
+    display: inline-block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.appointment-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.appointment-details p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+
+.success-content {
+    background: url('https://i.pinimg.com/originals/b8/23/e3/b823e38cc01fdb9278b6f7faa2feda6d.gif') center center/cover fixed;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.success-message {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem; /* Adjusted padding */
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+}
+
+.success-message h2,
+.success-message p {
+    padding: 1px;
+    border-radius: 1rem;
+}
+
+.appointment-details {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+    padding: 2rem;
+    display: inline-block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.appointment-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.appointment-details p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.success-content {
+    padding-top: 10rem; /* Same margin-top as appointment form */
+    position: relative; /* Ensure relative positioning */
+}
+
+.success-message {
+    margin: 0 auto; /* Center the success message */
+    max-width: 40rem; /* Same max-width as appointment form */
+}
+
+#success-email,
+#success-phone,
+#success-email:focus,
+#success-phone:focus {
+    width: calc(100% - 2rem); /* Same width calculation as appointment form */
+    padding: 1rem; /* Same padding as appointment form */
+    font-size: 1.4rem; /* Same font size as appointment form */
+    margin-bottom: 1.5rem; /* Same margin-bottom as appointment form */
+    border-radius: 0.5rem; /* Same border-radius as appointment form */
+    border: 0.1rem solid var(--blue); /* Same border as appointment form */
+}
+
+.success-content button[type="submit"] {
+    width: calc(100% - 2rem); /* Same width calculation as appointment form */
+    padding: 1.2rem; /* Same padding as appointment form */
+    font-size: 1.6rem; /* Same font size as appointment form */
+    color: #fff; /* Same color as appointment form */
+    background-color: var(--blue); /* Same background color as appointment form */
+    border: none; /* Same border as appointment form */
+    border-radius: 0.5rem; /* Same border-radius as appointment form */
+    cursor: pointer; /* Same cursor as appointment form */
+    transition: background-color 0.3s ease; /* Same transition as appointment form */
+}
+
+.success-content button[type="submit"]:hover {
+    background-color: var(--pink); /* Same hover background color as appointment form */
+}
+.appointment {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjusted translucent rate */
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem; /* Added margin between appointment details */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+    .appointment-details {
+        max-width: 90%; /* Adjusted max-width for smaller screens */
+    }
+}

@@ -1,0 +1,42 @@
+
+/* doctors.css */
+  /* Add padding to the top of the body */
+  body {
+    padding-top: 60px; 
+}
+
+.doctor-container {
+    margin-top: 20px; 
+}
+.container__column {
+    width: 100%; /* Set width to 100% */
+    height: 100vh; /* Set height to 100% of viewport height */
+    text-align: center; /* Center align text */
+    padding: 50px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.container__column h3 {
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+    font-size: 30px;
+}
+
+.container__column p {
+    font-size: 15px;
+    margin-bottom: 40px; /* Adjusted margin for better spacing */
+}
+
+.book-appointment {
+    display: inline-block;
+    background-color: #007bff; /* Changed button color */
+    color: #fff; /* Changed text color */
+    text-decoration: none; /* Remove default underline */
+    padding: 15px 30px; /* Increased button padding */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-appointment:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}

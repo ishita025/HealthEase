@@ -1,0 +1,47 @@
+/* additional.css */
+#appointmentForm {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    z-index: 1;
+}
+
+#appointmentForm label {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+#appointmentForm input[type="text"],
+#appointmentForm input[type="date"],
+#appointmentForm input[type="time"],
+#appointmentForm select,
+#appointmentForm input[type="number"] {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--blue);
+}
+
+#appointmentForm input[type="submit"] {
+    width: calc(100% - 2rem);
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#appointmentForm input[type="submit"]:hover {
+    background-color: var(--pink);
+}
